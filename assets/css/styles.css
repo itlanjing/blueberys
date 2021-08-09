@@ -120,8 +120,8 @@
 @media (min-width: 992px) {
   .navbar {
     margin-top: .5rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    max-width: 95%;
+    margin: auto;
   }
 }
 
