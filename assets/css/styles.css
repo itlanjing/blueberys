@@ -141,3 +141,34 @@
   background: url("../../assets/img/line.svg");
 }
 
+.button-mobil {
+  display: inline-block;
+  text-align: center;
+  background: var(--bs-blue);
+  color: #fff!important;
+  font-weight: bold;
+  padding: 0.9em 1em 0.9em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  min-width: 7em;
+  text-decoration: none;
+  font-family: 'Gilroy-Medium ☞';
+  font-size: 1.1rem;
+}
+
+.button2-mobil {
+  display: inline-block;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 0.9em 1em 0.9em;
+  line-height: 1;
+  border-radius: 1em;
+  position: relative;
+  min-width: 7em;
+  text-decoration: none;
+  font-family: 'Gilroy-Medium ☞';
+  font-size: 1.1rem;
+  color: var(--bs-blue)!important;
+}
+
