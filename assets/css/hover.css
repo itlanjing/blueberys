@@ -3,7 +3,7 @@
 
 @media (max-width: 992px) {
   .wrapper {
-    padding: 1rem 1.1rem;
+    padding: 1rem 1rem;
     filter: url('#goo');
   }
 }
