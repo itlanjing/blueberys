@@ -48,7 +48,7 @@
 }
 
 .button2:before, .button2:after {
-  width: 4.4em;
+  width: 2.4em;
   height: 2.95em;
   position: absolute;
   content: "";
@@ -61,7 +61,7 @@
 }
 
 .button:before, .button:after {
-  width: 4.4em;
+  width: 2.4em;
   height: 2.95em;
   position: absolute;
   content: "";
