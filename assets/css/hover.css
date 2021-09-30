@@ -105,3 +105,9 @@
   cursor: pointer;
 }
 
+@media (min-width: 992px) {
+  .fulle {
+    min-height: 100vh;
+  }
+}
+
