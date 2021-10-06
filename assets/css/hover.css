@@ -111,3 +111,8 @@
   }
 }
 
+.card svg {
+  font-size: 50px;
+  color: var(--bs-blue);
+}
+

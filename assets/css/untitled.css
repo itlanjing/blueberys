@@ -1,0 +1,9 @@
+.path {
+  -webkit-animation: dash 30s linear infinite;
+  stroke-dasharray: 8;
+}
+
+.test {
+  fill: none;
+}
+

@@ -12,7 +12,7 @@ body {
 }
 
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #3699ff;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -34,7 +34,7 @@ body {
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
+  --bs-primary: #3699ff;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -42,7 +42,7 @@ body {
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 13,110,253;
+  --bs-primary-rgb: 54,153,255;
   --bs-secondary-rgb: 108,117,125;
   --bs-success-rgb: 25,135,84;
   --bs-info-rgb: 13,202,240;
@@ -601,6 +601,14 @@ body {
 
 @media (min-width: 992px) {
   .enckokunancard {
+    width: 210px;
+    padding-bottom: 3.8%!important;
+    max-width: 249px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .enckokunancard {
     width: 249px;
     padding-bottom: 3.8%!important;
     max-width: 249px;
@@ -613,6 +621,7 @@ body {
   font-size: 17px;
   color: #1c1d25;
   width: 99%;
+  font-family: 'Gilroy-Light ☞';
 }
 
 .encokokunanyazar {
@@ -637,6 +646,7 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
+  margin-top: 10px;
 }
 
 .encokokunanyazarpp {
@@ -646,13 +656,12 @@ body {
 
 .enckokunancard {
   background-color: #ffffff;
-  border-radius: 13px;
+  border-radius: 15px;
   box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
 }
 
 .encokokunangorsel {
-  border-top-left-radius: 13px;
-  border-top-right-radius: 13px;
+  border-radius: 10px;
 }
 
 .encokokunanlink {
@@ -666,7 +675,7 @@ body {
 }
 
 .encokokunanparentgorsel {
-  position: relative;
+  padding: 9px 9px 0 9px;
 }
 
 .bookmarkrenklendirme:hover {
@@ -889,5 +898,159 @@ body {
   .girissozu {
     max-width: 80%;
   }
+}
+
+@media (min-width: 768px) {
+  .encokkokunancol.entepede {
+    max-width: 30%;
+  }
+}
+
+.yataycardimage {
+  padding: 0;
+  background: url("../../assets/img/kapak2.png") center / cover;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.yataycardrow .baslik {
+  font-family: 'Gilroy-Bold ☞';
+  font-size: 1.4rem;
+  color: #212529;
+}
+
+.yataycardrow {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.yataycardrow .icerikozeti {
+  margin-bottom: 0;
+  font-size: .9rem;
+  color: #929292;
+}
+
+.yataycard {
+  padding: 1rem;
+}
+
+.yataycardimagecol {
+  padding: 0;
+}
+
+@media (max-width: 992px) {
+  .tavsiyeimage {
+    width: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .tavsiyeimage {
+    width: 50%;
+  }
+}
+
+.yataycard a {
+  text-decoration: none;
+}
+
+.enckokunancard .yazibadge {
+  margin-left: 10px;
+}
+
+.yataycard .yazibadge {
+  background-color: #c0c0c0!important;
+}
+
+.yazibadge {
+  font-size: 0.8rem;
+  margin-bottom: .8rem;
+  border-radius: 1rem;
+  background-color: #c0c0c0!important;
+  font-family: 'Gilroy-Medium ☞';
+  padding: .4rem .9rem;
+}
+
+@media (min-width: 768px) {
+  .yazidetail {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .yankart {
+    max-width: 30%;
+  }
+}
+
+@media (max-width: 992px) {
+  .yankart {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .entepecardimage {
+    height: 100%;
+    border-radius: 19px;
+    border-width: 3px;
+    background: url("../../assets/img/blog-cover.png") center / cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .entepecardimage {
+    height: 15rem;
+    border-radius: 19px;
+    border-width: 3px;
+    background: url("../../assets/img/blog-cover.png") center / cover;
+  }
+}
+
+.yazi {
+  background-color: #ffffff;
+  border-radius: 30px;
+  max-width: 95%;
+  margin: auto;
+  margin-top: -11rem;
+  font-family: 'Gilroy-Medium ☞';
+}
+
+.yazi .badge {
+  font-family: 'Gilroy-Medium ☞';
+  border-radius: 8px;
+  padding: .6rem .7rem;
+}
+
+.yazi h1 {
+  margin-top: 2rem;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.yazi h3 {
+  margin-top: 2rem;
+  font-family: 'Gilroy-Medium ☞';
+  color: #333333;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+}
+
+.yazidetail {
+  color: #4f575a;
+}
+
+.enonecikancol.image {
+  padding: 10px;
+}
+
+.enonecikancol.yazicol {
+  padding: 20px 20px 0px 20px;
 }
 
