@@ -525,3 +525,9 @@
   color: #212529;
 }
 
+@media (max-width: 576px) {
+  .icerikozeti {
+    display: none;
+  }
+}
+
