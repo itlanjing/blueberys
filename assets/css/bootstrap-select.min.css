@@ -616,3 +616,15 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 576px) {
+  .anasayfablog .yazidetail {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .anasayfablog .enckokunancard {
+    max-width: 275px;
+  }
+}
+
