@@ -4,9 +4,6 @@
   }
 }
 
-.encokokunanlink {
-}
-
 @media (min-width: 992px) {
   .enckokunancard {
     width: 220px;
@@ -53,11 +50,6 @@
 .enckokunancard {
   background-color: #ffffff;
   border-radius: 15px;
-}
-
-.encokokunanlink {
-  text-decoration: none;
-  color: #000000;
 }
 
 .encokokunanlink:hover {

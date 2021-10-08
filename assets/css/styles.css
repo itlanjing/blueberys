@@ -599,9 +599,6 @@ body {
   }
 }
 
-.encokokunanlink {
-}
-
 @media (min-width: 992px) {
   .enckokunancard {
     width: 210px;
@@ -625,6 +622,7 @@ body {
   color: #1c1d25;
   width: 99%;
   font-family: 'Gilroy-Medium ☞';
+  margin-bottom: 1rem;
 }
 
 .encokokunanyazar {
@@ -649,7 +647,7 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .encokokunanyazarpp {
@@ -661,6 +659,7 @@ body {
   background-color: #ffffff;
   border-radius: 15px;
   box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
+  height: 100%;
 }
 
 .encokokunangorsel {
@@ -670,6 +669,7 @@ body {
 .encokokunanlink {
   text-decoration: none;
   color: #000000;
+  height: 100%;
 }
 
 .encokokunanlink:hover {
@@ -709,7 +709,7 @@ body {
   .blogsection .enckokunancard {
     max-width: 95%;
     margin: auto;
-    margin-bottom: 2rem;
+    /*margin-bottom: 2rem;*/
   }
 }
 
@@ -943,11 +943,12 @@ body {
 }
 
 .yataycardrow {
-  background-color: #f2f2f2;
+  background-color: #f2f4f8;
   border-radius: 15px;
   border-style: solid;
   border-color: #ffffff;
   margin-bottom: 1rem;
+  border-width: 3px;
 }
 
 @media (min-width: 576px) {
@@ -959,7 +960,7 @@ body {
 
 @media (max-width: 576px) {
   .yataycard {
-    padding: .5rem .8rem;
+    padding: .8rem .8rem;
   }
 }
 
@@ -996,6 +997,7 @@ body {
 
 .yataycard .yazibadge {
   background-color: #c0c0c0!important;
+  margin-bottom: .5rem;
 }
 
 @media (max-width: 768px) {
@@ -1054,7 +1056,7 @@ body {
   border-radius: 30px;
   max-width: 95%;
   margin: auto;
-  margin-top: -11rem;
+  margin-top: -9rem;
   font-family: 'Gilroy-Medium ☞';
 }
 

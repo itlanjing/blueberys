@@ -481,7 +481,7 @@
 }
 
 .encokokunanyazidiv .yazidetail {
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -619,12 +619,27 @@
 @media (max-width: 576px) {
   .anasayfablog .yazidetail {
     display: none;
+    /*font-size: .8rem;*/
   }
 }
 
 @media (min-width: 768px) {
   .anasayfablog .enckokunancard {
     max-width: 275px;
+  }
+}
+
+@media (max-width: 576px) {
+  .anasayfablog .encokokunanbaslik {
+    font-family: 'Gilroy-Medium ☞';
+    font-size: .9rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .anasayfablog .yazibadge {
+    display: none;
   }
 }
 
