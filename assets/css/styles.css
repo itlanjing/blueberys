@@ -403,6 +403,8 @@ body {
   padding: 20px 20px 30px 20px;
   border-radius: 15px;
   background: linear-gradient(137deg, rgb(242,244,248), rgb(250,251,252) 100%);
+  max-width: 400px;
+  margin: auto;
 }
 
 .planisec {
@@ -619,10 +621,10 @@ body {
 .encokokunanbaslik {
   font-weight: 600;
   text-align: left;
-  font-size: 17px;
+  font-size: 20px;
   color: #1c1d25;
   width: 99%;
-  font-family: 'Gilroy-Light ☞';
+  font-family: 'Gilroy-Medium ☞';
 }
 
 .encokokunanyazar {
@@ -634,10 +636,10 @@ body {
 }
 
 .encokokunanyazidiv {
-  padding: 10px;
+  padding: 0 15px 15px 15px;
   display: grid;
   align-items: center;
-  margin-top: 12px;
+  margin-top: 0px;
 }
 
 .encokkokunancol {
@@ -917,10 +919,11 @@ body {
 
 .yataycardimage {
   padding: 0;
-  background: url("../../assets/img/kapak2.png") center / cover;
   height: 100%;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 576px) {
@@ -934,7 +937,7 @@ body {
 @media (max-width: 576px) {
   .yataycardrow .baslik {
     font-family: 'Gilroy-Bold ☞';
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #212529;
   }
 }
@@ -947,15 +950,16 @@ body {
   margin-bottom: 1rem;
 }
 
-.yataycardrow .icerikozeti {
-  margin-bottom: 0;
-  font-size: 0.9rem;
-  color: #929292;
+@media (min-width: 576px) {
+  .yataycardrow .icerikozeti {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 576px) {
   .yataycard {
-    padding: .5rem 1rem;
+    padding: .5rem .8rem;
   }
 }
 
@@ -987,19 +991,26 @@ body {
 
 .enckokunancard .yazibadge {
   margin-left: 10px;
+  margin-top: 1rem;
 }
 
 .yataycard .yazibadge {
   background-color: #c0c0c0!important;
 }
 
+@media (max-width: 768px) {
+  .yataycard .yazibadge {
+    display: none;
+  }
+}
+
 .yazibadge {
-  font-size: 0.8rem;
-  margin-bottom: .8rem;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
   background-color: #c0c0c0!important;
   font-family: 'Gilroy-Medium ☞';
-  padding: .4rem .9rem;
+  padding: 0.4rem 0.6rem;
 }
 
 @media (min-width: 768px) {
@@ -1077,7 +1088,15 @@ body {
   padding: 10px;
 }
 
-.enonecikancol.yazicol {
-  padding: 20px 20px 0px 20px;
+@media (max-width: 768px) {
+  .enonecikancol.yazicol {
+    padding: .7rem 20px 0px 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .enonecikancol.yazicol {
+    padding: 20px 20px 0px 20px;
+  }
 }
 
