@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bağlı Hesaplar</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+
+    <section id="popups">
+        <div class="popup facebook">
+            <div class="kapat-tus">
+                <ion-icon onclick="popup_kapat();" name="close"></ion-icon>
+            </div>
+            <div class="icerik">
+                1
+            </div>
+        </div>
+        <div class="popup linkedin">
+            <div class="kapat-tus">
+                <ion-icon onclick="popup_kapat();" name="close"></ion-icon>
+            </div>
+            <div class="icerik">
+                2
+            </div>
+        </div>
+        <div class="popup twitter">
+            <div class="kapat-tus">
+                <ion-icon onclick="popup_kapat();" name="close"></ion-icon>
+            </div>
+            <div class="icerik">
+                3
+            </div>
+        </div>
+        <div class="popup facebook2">
+            <div class="kapat-tus">
+                <ion-icon onclick="popup_kapat();" name="close"></ion-icon>
+            </div>
+            <div class="icerik">
+                4
+            </div>
+        </div>
+        <div class="popup linkedin2">
+            <div class="kapat-tus">
+                <ion-icon onclick="popup_kapat();" name="close"></ion-icon>
+            </div>
+            <div class="icerik">
+                5
+            </div>
+        </div>
+        <div class="popup twitter2">
+            <div class="kapat-tus">
+                <ion-icon onclick="popup_kapat();" name="close"></ion-icon>
+            </div>
+            <div class="icerik">
+                6
+            </div>
+        </div>
+    </section>
+
+    <section id="bagli-hesaplar">
+        <div class="__medya">
+            <div onclick="popup_ac('facebook');" class="__item --aktif">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <div class="__baglanti-oku">
+                    <svg class="__ok" width="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <line class="svg-path" x1="0" y1="20" x2="0" y2="0"  stroke-width="4"/>
+                        <line class="svg-path" x1="91" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path --mobil" x1="66.5" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path" x1="90" y1="70" x2="90" y2="20"  stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+            <div onclick="popup_ac('linkedin');" class="__item --aktif">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <div class="__baglanti-oku">
+                    <svg class="__ok" width="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <line class="svg-path" x1="0" y1="0" x2="0" y2="100"  stroke-width="4"/>
+                    </svg>
+                </div>
+            </div>
+            <div onclick="popup_ac('twitter');" class="__item --aktif">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <div class="__baglanti-oku">
+                    <svg class="__ok" width="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <line class="svg-path" x1="0" y1="20" x2="0" y2="0"  stroke-width="4"/>
+                        <line class="svg-path" x1="91" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path --mobil" x1="66.5" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path" x1="90" y1="70" x2="90" y2="20"  stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="__logo">
+            <!-- Logo Buraya Eklenecek -->
+            <img src="img/pp.png" alt="logo">
+        </div>
+        <div class="__medya">
+            <div onclick="popup_ac('facebook2');" class="__item">
+                <ion-icon name="logo-facebook"></ion-icon>
+                <div class="__baglanti-oku">
+                    <svg class="__ok" width="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <line class="svg-path" x1="0" y1="20" x2="0" y2="0"  stroke-width="4"/>
+                        <line class="svg-path" x1="91" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path --mobil" x1="66.5" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path" x1="90" y1="70" x2="90" y2="20"  stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+            <div onclick="popup_ac('linkedin2');" class="__item">
+                <ion-icon name="logo-linkedin"></ion-icon>
+                <div class="__baglanti-oku">
+                    <svg class="__ok" width="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <line class="svg-path" x1="0" y1="0" x2="0" y2="100"  stroke-width="4"/>
+                    </svg>
+                </div>
+            </div>
+            <div onclick="popup_ac('twitter2');" class="__item">
+                <ion-icon name="logo-twitter"></ion-icon>
+                <div class="__baglanti-oku">
+                    <svg class="__ok" width="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <line class="svg-path" x1="0" y1="20" x2="0" y2="0"  stroke-width="4"/>
+                        <line class="svg-path" x1="91" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path --mobil" x1="66.5" y1="20" x2="0" y2="20"  stroke-width="2"/>
+                        <line class="svg-path" x1="90" y1="70" x2="90" y2="20"  stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İon İcon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+section#bagli-hesaplar{
+    display: flex;
+    flex-direction: column;
+    min-width: 30rem;
+    height: 30rem;
+    justify-content: space-between;
+    position: relative;
+    margin: 1rem 2rem;
+    font-size: 1rem;
+
+    @include mobil(){
+        transform: scale(.9);
+    }
+
+    .__medya{
+        display: flex;
+        justify-content: space-between;
+        font-size: 4em;
+
+        .--aktif{
+
+            .svg-path {
+                animation: dash 20s linear infinite;
+            }
+
+            @keyframes dash {
+                to {
+                    stroke-dashoffset: 1000;
+                }
+            }
+        }
+
+        .svg-path {
+            stroke-dasharray: 4;
+            
+            &:nth-child(2){
+                display: block;
+            }
+            &:nth-child(3){
+                display: none;
+            }
+
+            @include mobil(){
+                &:nth-child(2){
+                    display: none;
+                }
+                &:nth-child(3){
+                    display: block;
+                }
+            }
+        }
+        
+        .__item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            .__baglanti-oku{
+                position: absolute;
+                z-index: -1;
+            }
+        }
+
+        &:nth-child(1){
+            .__item{
+
+                &:nth-child(1),
+                &:nth-child(3){
+                    .__baglanti-oku{
+                        top: 1em;
+                    }
+                }
+
+                &:nth-child(1){
+                    .__baglanti-oku{
+                        left: .5em;
+                    }
+                }
+
+                &:nth-child(2){
+                    .__baglanti-oku{
+                        transform:scaleY(-1);
+                        right: .65em;
+                        top: .7em;
+
+                        @include mobil(){
+                            right: -.4em;
+                            height: 100px;
+                            top: 1em;
+                            overflow: hidden;
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    .__baglanti-oku{
+                        transform:scaleX(-1);
+                        right: .5em;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(3){
+            .__item{
+
+                &:nth-child(1),
+                &:nth-child(3){
+                    .__baglanti-oku{
+                        bottom: 1em;
+                    }
+                }
+
+                &:nth-child(1){
+                    .__baglanti-oku{
+                        transform:scaleY(-1);
+                        left: .5em;
+                    }
+                }
+
+                &:nth-child(2){
+                    .__baglanti-oku{
+                        right: .65em;
+                        bottom: .7em;
+
+                        @include mobil(){
+                            right: -.4em;
+                            height: 100px;
+                            bottom: 1em;
+                            overflow: hidden;
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    .__baglanti-oku{
+                        transform:scaleX(-1) scaleY(-1);
+                        right: .5em;
+                    }
+                }
+            }
+        }
+    }
+
+    .__logo{
+        display: flex;
+        justify-content: center;
+        img{
+            width: 7em;
+            height: 7em;
+            border-radius: .5em;
+        }
+    }
+}

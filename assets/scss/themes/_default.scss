@@ -1,0 +1,23 @@
+body{
+    background-color: $beyaz;
+}
+
+section#bagli-hesaplar{
+    .--aktif{
+        ion-icon{
+            color: $yesil;
+        }
+    
+        .svg-path {
+            stroke: $yesil;
+        }
+    }
+    
+    .svg-path {
+        stroke: $gri;
+    }
+    
+    ion-icon{
+        color: $gri;
+    }
+}

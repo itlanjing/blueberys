@@ -111,8 +111,18 @@
   }
 }
 
-.card svg {
-  font-size: 50px;
-  color: var(--bs-blue);
+@media (min-width: 768px) {
+  .card svg {
+    font-size: 50px;
+    color: var(--bs-blue);
+  }
+}
+
+@media (max-width: 768px) {
+  .card svg {
+    font-size: 25px;
+    color: var(--bs-blue);
+    margin-right: 20px;
+  }
 }
 

@@ -1,0 +1,5 @@
+html{
+    @include mobil(){
+        font-size: 12px;
+    }
+}
